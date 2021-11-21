@@ -56,7 +56,7 @@ class _homepageState extends State<Login> {
                   Padding(
                     padding: const EdgeInsets.only(
                         right: pad, bottom: pad / 2, left: pad),
-                    child: TextFormField(
+                    child: TextFormField(obscureText: true,
                       decoration: InputDecoration(
                         hintText: "Password",
                         enabledBorder: OutlineInputBorder(
